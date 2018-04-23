@@ -1,0 +1,23 @@
+#item{
+    margin:0.5%;
+    margin-left: 30%;
+    width: 40%;
+    height:fit-content;
+    border-radius: 10px;
+    background: linear-gradient(seashell,white);
+    box-shadow: 5px 20px 20px seashell;
+   
+}
+#img{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100%;
+    border:1px solid black;
+    display: inline;
+    margin:2%;
+}
+#text{
+    display: inline;
+}
+

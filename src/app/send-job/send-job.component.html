@@ -1,0 +1,6 @@
+<div id="form">
+    <input type="text" placeholder="Titulo" #title/>
+    <input type="text" placeholder="image" #image/>
+    <input type="textarea" placeholder="Descripcion" #desc/>
+    <button (click)="addJob(image.value,title.value,desc.value)">Enviar</button>
+</div>
